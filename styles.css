@@ -4,7 +4,7 @@
     box-sizing:border-box;
 }
 body{
-    background-image: linear-gradient( red, yellow);
+    background-color: rgb(224, 185, 185);
 }
 .navi{
     display: flex;
@@ -325,4 +325,10 @@ h1 {
         right:10px
     }
 
+}
+@media all and (max-width:376px){
+    .homes{
+        padding-bottom:40px ;
+        font-size: 10pt;
+    }
 }
